@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>E:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>E:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>E:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\Debug\AsmSketch.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AsmSketch.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AsmSketch.map</FILE>
+  <FILE>AsmSketch.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>2</LINE></main>
+  <asm_setup><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>7</LINE></asm_setup>
+  <main_loop><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>4</LINE></main_loop>
+  <asm_loop><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>18</LINE></asm_loop>
+  <Print_Hello><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>24</LINE></Print_Hello>
+  <wait><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>40</LINE></wait>
+  <array><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>55</LINE></array>
+  <Loop><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>28</LINE></Loop>
+  <LOOP0><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>42</LINE></LOOP0>
+  <LOOP1><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>44</LINE></LOOP1>
+  <LOOP2><FILE>E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\AsmSketch\AsmSketch\main.asm</FILE><LINE>46</LINE></LOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>
