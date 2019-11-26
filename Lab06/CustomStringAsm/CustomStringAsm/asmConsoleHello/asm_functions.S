@@ -21,13 +21,13 @@ Print_Hello:
 ;load the starting address of the string in the Z pointer
 ldi ZL, lo8(myarray)         ; r30
 ldi ZH, hi8(myarray)         ; r31
-lpm r18, Z+            ; Load the first character of the string in r18
+ld r18, Z+            ; Load the first character of the string in r18
 Loop:
 lds   r17, UCSR0A
 sbrs  r17, UDRE0   ; test the data buffer if data can be transmitted
 rjmp  Loop
 sts   UDR0, r18     ; send data contained in r18
-lpm r18, Z+        ; load the next character
+ld r18, Z+        ; load the next character
 tst r18; check if 0 – the string ends
 brne Loop
 ret

@@ -9,7 +9,7 @@
 
 extern "C" void Serial_Setup();
 extern "C" void Print_Hello();
-extern "C" uint8_t myarray[10]={1, 30, 3, 4, 5, 6, 7, 8, 10, 11};
+extern "C" char myarray[] = "PELEMEU";
 
 void setup() {
   Serial_Setup();

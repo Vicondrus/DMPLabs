@@ -384,42 +384,42 @@ END GROUP
  *(.fini0)
                 0x000003aa                _etext = .
 
-.data           0x00800200        0xa load address 0x000003aa
+.data           0x00800200        0x8 load address 0x000003aa
                 0x00800200                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
- .data.myarray  0x00800200        0xa Sketch.o
+ .data.myarray  0x00800200        0x8 Sketch.o
                 0x00800200                myarray
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.r*)
-                0x0080020a                . = ALIGN (0x2)
-                0x0080020a                _edata = .
-                0x0080020a                PROVIDE (__data_end, .)
+                0x00800208                . = ALIGN (0x2)
+                0x00800208                _edata = .
+                0x00800208                PROVIDE (__data_end, .)
 
-.bss            0x0080020a        0x9
-                0x0080020a                PROVIDE (__bss_start, .)
+.bss            0x00800208        0x9
+                0x00800208                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.timer0_fract
-                0x0080020a        0x1 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800208        0x1 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x0080020b        0x4 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0080020b                timer0_millis
+                0x00800209        0x4 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800209                timer0_millis
  .bss.timer0_overflow_count
-                0x0080020f        0x4 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0080020f                timer0_overflow_count
+                0x0080020d        0x4 E:\Users\Victor\Documents\Arduino\DMPLabs\Lab06\CustomStringAsm\CustomStringAsm\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0080020d                timer0_overflow_count
  *(COMMON)
-                0x00800213                PROVIDE (__bss_end, .)
+                0x00800211                PROVIDE (__bss_end, .)
                 0x000003aa                __data_load_start = LOADADDR (.data)
-                0x000003b4                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000003b2                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800213        0x0
+.noinit         0x00800211        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800213                _end = .
+                0x00800211                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
